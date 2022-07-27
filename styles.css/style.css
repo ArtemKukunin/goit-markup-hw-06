@@ -1040,3 +1040,75 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
   }
    
+/* Modal form */
+.form{
+    padding:40px;
+}
+.box-form-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl-title);
+}
+
+.box-form-name{
+     
+}
+.box-form-phone .box-form-mail{
+    
+}
+
+.button-form{
+  
+   
+display: block;
+margin-left: auto;
+margin-right: auto;
+min-width: 200px;
+padding: 10px 55px;
+
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+border-radius: 4px;
+background-color: var(--accent-bg-cl);
+color: var(--main-txt);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.comment-form{
+    width: 448px;
+    height: 120px;
+    padding: 12px 16px;
+}
+.form-input {
+    width: 448px;
+    height: 40px;
+   
+}
+.form-icon {
+    position: relative;
+    bottom: 30px;
+    left: 12px;
+   
+}
+.form-label{
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+
+letter-spacing: 0.01em;
+padding-bottom: 4px;
+
+color:var(--main-txt-cl);
+
+}
+
