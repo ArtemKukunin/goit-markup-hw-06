@@ -675,7 +675,7 @@ fill:currentColor;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em; 
     text-transform: uppercase;
     color: var(--main-txt);
@@ -713,6 +713,7 @@ fill:currentColor;
     
  }
  /* Footer icons */
+
  .footer-socials-link{
     transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
@@ -1048,7 +1049,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-txt-cl-title);
@@ -1086,10 +1087,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     width: 448px;
     height: 120px;
     padding: 12px 16px;
+    border-radius: 4px;
 }
 .form-input {
+    border-radius: 4px;
     width: 448px;
     height: 40px;
+  
    
 }
 .form-icon {
@@ -1112,3 +1116,61 @@ color:var(--main-txt-cl);
 
 }
 
+/* Footer forms */
+.box-footer-form{
+    margin-left: 93px;
+}
+
+.footer-form-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+    color:var(--main-txt);
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.footer-button-form{
+    display: block;
+    margin-top: 34px;
+    margin-left: 12px;
+   
+    min-width: 200px;
+    max-height: 50px;
+    padding: 10px 55px;
+    
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    background-color: var(--accent-bg-cl);
+    color: var(--main-txt);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.box-footer-form-mail{
+   
+    margin-top: 20px;
+   
+}
+.footer-form-input{
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+}
+.fotter-button-form{
+    position: relative;
+    
+     
+}
+.form-icon-btn{
+    position: absolute;
+  
+  
+}
